@@ -1,4 +1,4 @@
-import ccxtpro
+import ccxt.pro
 import asyncio
 
 orderbooks = {}

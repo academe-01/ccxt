@@ -1,5 +1,5 @@
 import asyncio
-import ccxtpro
+import ccxt.pro
 
 
 class MyBinance(ccxtpro.binance):
