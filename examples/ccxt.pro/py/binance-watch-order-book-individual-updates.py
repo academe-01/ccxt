@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from asyncio import run
-import ccxt.pro
+import ccxtpro
 
 
 class MyBinance(ccxtpro.binance):

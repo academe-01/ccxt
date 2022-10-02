@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from asyncio import run, gather
-import ccxt.pro
+import ccxtpro
 
 
-print('CCXT Version:', ccxt.__version__)
+print('CCXT Pro Version:', ccxtpro.__version__)
 
 
 async def exchange_loop(exchange_id, symbols):

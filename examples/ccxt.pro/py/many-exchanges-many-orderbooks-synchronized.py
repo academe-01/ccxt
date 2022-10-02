@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import asyncio
-import ccxt.pro
+import ccxtpro
 
 
 orderbooks = {}

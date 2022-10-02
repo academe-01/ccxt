@@ -1,4 +1,4 @@
-import ccxt.pro
+import ccxtpro
 from asyncio import run, gather
 
 
@@ -29,7 +29,7 @@ async def reload_markets(exchange, delay):
 
 
 async def main():
-    exchange = ccxt.pro.binance()
+    exchange = ccxtpro.binance()
     await exchange.load_markets()
     # exchange.verbose = True
     symbol = 'BTC/USDT'

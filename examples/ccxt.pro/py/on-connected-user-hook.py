@@ -1,9 +1,9 @@
-import ccxt.pro
+import ccxtpro
 from asyncio import run, ensure_future
 from pprint import pprint
 
 
-print('CCXT Version:', ccxt.__version__)
+print('CCXT Pro Version:', ccxtpro.__version__)
 
 
 # on_connected() is called when a client connection is established

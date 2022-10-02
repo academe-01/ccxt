@@ -1,4 +1,4 @@
-import ccxt.pro
+import ccxtpro
 from asyncio import run
 
 
@@ -6,7 +6,7 @@ print('CCXT Pro version', ccxtpro.__version__)
 
 
 async def main():
-    exchange = ccxt.pro.bitvavo()
+    exchange = ccxtpro.bitvavo()
     await exchange.load_markets()
     exchange.verbose = True
     symbol = 'BTC/EUR'
